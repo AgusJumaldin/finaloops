@@ -33,7 +33,7 @@ public class FashionRecs extends JFrame {
         JPanel rightPanel = new JPanel();
         rightPanel.setOpaque(false);
         rightPanel.setLayout(new FlowLayout(FlowLayout.RIGHT, 20, 10));
-        String[] buttons = {"Camera", "Fashion"};
+        String[] buttons = {"Camera"};
         for (String name : buttons) {
             JButton button = new JButton(name);
             button.setFocusPainted(false);
