@@ -50,4 +50,4 @@ joblib.dump(model, os.path.join(output_dir, "personal_color_model.pkl"))
 joblib.dump(label_encoder, os.path.join(output_dir, "label_encoder.pkl"))
 joblib.dump(scaler, os.path.join(output_dir, "scaler.pkl"))
 
-print(f"\n💾 Model and preprocessing tools saved in '{output_dir}/'")
+print(f"\n Model and preprocessing tools saved in '{output_dir}/'")
